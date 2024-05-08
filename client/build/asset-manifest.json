@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.caa9cc7c.css",
+    "main.js": "/static/js/main.a5ba99bb.js",
+    "static/media/vid.mp4": "/static/media/vid.2c92d01256c8f29e1b68.mp4",
+    "static/media/logo.ico": "/static/media/logo.b67f14ee37ce09e93c81.ico",
+    "static/media/globe.jpg": "/static/media/globe.898a75deec0bfd476c75.jpg",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.caa9cc7c.css.map": "/static/css/main.caa9cc7c.css.map",
+    "main.a5ba99bb.js.map": "/static/js/main.a5ba99bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa9cc7c.css",
+    "static/js/main.a5ba99bb.js"
+  ]
+}
