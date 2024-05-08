@@ -14,9 +14,8 @@ const quantity = 25;
 const corsConfig = {
     origin: "*",
     credentials: true,
-    methods: ['GET', 'POST', 'PUT', 'DELETE']
 }
-
+app.options("", cors(corsConfig))
 const __variableOfChoice = path.resolve();
 
 dontenv.config();
