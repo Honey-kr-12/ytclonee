@@ -11,14 +11,18 @@ import path from 'path'
 import requestIp from 'request-ip'
 
 const quantity = 25;
-
+const corsConfig = {
+    origin: "*",
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
+}
 
 const __variableOfChoice = path.resolve();
 
 dontenv.config();
 
 const app=express()
-app.use(cors());
+app.use(cors(corsConfig));
 app.use(express.json({limit:"30mb", extended:true}));
 app.use(express.urlencoded({limit:"30mb", extended:true}));
 // app.use('/uploads',express.static(path.join('uploads')))
