@@ -49,7 +49,7 @@ app.use('/premium/api/subscriptions',paymentRoutes);
 //     res.sendFile(path.join(__variableOfChoice, "client", "build", "index.html"));
 //   });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT,() => {
     connectionToDatabase();
     console.log("server is running ",PORT)
